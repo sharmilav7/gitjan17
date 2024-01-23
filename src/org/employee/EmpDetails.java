@@ -13,6 +13,14 @@ public class EmpDetails {
 	{
 		System.out.println("959743214");
 	}
+	public void empLocation()
+	{
+		System.out.println("chennai");
+	}
+	public void empDesig()
+	{
+		System.out.println("QA");
+	}
 	public static void main(String[] args) {
 		EmpDetails e=new EmpDetails();
 		e.empId();
